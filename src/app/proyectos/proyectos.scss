@@ -120,34 +120,59 @@ h4 {
 }
 
 /* Estilos específicos para el proyecto */
-.project-image-container {
+.project-wrapper {
+  display: flex;
+  align-items: center; /* centra verticalmente imagen y texto */
+  gap: 50px; /* espacio entre imagen y texto */
   width: 100%;
-  height: 200px;
+  max-width: 1100px; /* o el ancho que quieras */
+   /* centra el contenedor en la página */
+}
+.project-description {
+
+  flex:1;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+
+}
+.project-image-container {
+  flex:2;
+  width: 100%;
+  height: 300px;
   overflow: hidden;
   border-radius: 6px;
   margin-bottom: 1rem;
-  background-color: #f5f5f5;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .project-image {
+  border-radius: 12px;
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: all 0.3s ease;
 }
 
-article:hover .project-image {
-  transform: scale(1.03);
+
+
+@media (max-width: 768px) {
+  .project-wrapper {
+    flex-wrap: wrap;
+  }
+  .project-image-container,
+  .project-description {
+    flex: 1 1 100%;
+  }
+  .project-image-container {
+    height: 160px; /* ya tienes este ajuste */
+     margin-bottom: 1rem;
+  }
 }
 
-.project-description {
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
 
 .project-features,
 .project-tech,
@@ -156,12 +181,12 @@ article:hover .project-image {
 }
 
 ul {
-  padding-left: 1.2rem;
-  margin: 0.5rem 0;
+  padding-left: 3rem;
+  margin: 1rem 0;
 }
 
 li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   line-height: 1.5;
   color: #555;
 }
@@ -181,7 +206,7 @@ li {
 
 .download-button {
   display: inline-block;
-  background-color: #68966e;
+  background-color: #368d42;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -191,5 +216,6 @@ li {
 }
 
 .download-button:hover {
-  background-color: #358d56;
+  background-color: #288b4e;
+  color:black
 }

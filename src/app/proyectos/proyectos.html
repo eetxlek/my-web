@@ -5,48 +5,61 @@
       <article>
 
         <h3>SmartDiet - Gestión Nutricional</h3>
-        <div class="project-image-container">
-          <img src="landing1.png" alt="SmartDiet" class="project-image">
+
+        <div class="project-wrapper">
+          <p class="project-description">
+            SmartDiet es una aplicación web diseñada para facilitar la gestión de la alimentación diaria. Integra una
+            base de datos propia con la API externa Open Food Facts, permitiendo consultar información nutricional
+            detallada, registrar consumos y organizar la despensa de forma sencilla. Su enfoque está en promover hábitos
+            alimenticios conscientes mediante una experiencia breve, intuitiva y segura.
+          </p>
+          <div class="project-image-container">
+            <img src="landing1.webp" alt="SmartDiet" class="project-image">
+          </div>
         </div>
-        <p class="project-description">
-         SmartDiet es una aplicación web diseñada para facilitar la gestión de la alimentación diaria. Integra una base de datos propia con la API externa Open Food Facts, permitiendo consultar información nutricional detallada, registrar consumos y organizar la despensa de forma sencilla. Su enfoque está en promover hábitos alimenticios conscientes mediante una experiencia breve, intuitiva y segura.
-        </p>
         <div class="download-button-container">
           <a href="Documentacion_GestorComidas_EstibalizEtxaburu.pdf" target="_blank" download class="download-button">
-            📄 Documentación completa
+            📄 Descarga documentación completa
           </a>
         </div>
+      
+          <div class="project-features">
+            <h4>Funcionalidades principales</h4>
+            <ul>
+              <li>📊 Recomendaciones personalizadas: Cálculo automático en base a perfil, objetivos y registros del
+                usuario.</li>
+              <li>🥫 Gestión de despensa: Añadir, editar y controlar existencias con datos nutricionales asociados.</li>
+              <li>🍽️ Registro de consumos: Seguimiento detallado del historial de ingestas diarias.</li>
+              <li>🔍 Búsqueda de productos: Consulta de información desde base de datos interna y API externa con
+                filtrado
+                y validación de datos.</li>
+            </ul>
+          </div>
 
-        <div class="project-features">
-          <h4>Funcionalidades principales</h4>
-          <ul>
-            <li>📊 Recomendaciones personalizadas: Cálculo automático en base a perfil, objetivos y registros del usuario.</li>
-            <li>🥫 Gestión de despensa: Añadir, editar y controlar existencias con datos nutricionales asociados.</li>
-            <li>🍽️ Registro de consumos: Seguimiento detallado del historial de ingestas diarias.</li>
-            <li>🔍 Búsqueda de productos: Consulta de información desde base de datos interna y API externa con filtrado y validación de datos.</li>
-          </ul>
-        </div>
+          <div class="project-tech">
+            <h4>Tecnologías y arquitectura</h4>
+            <ul>
+              <li>🧩 Arquitectura Hexagonal (Ports & Adapters). Separación clara entre dominio, aplicación e
+                infraestructura.</li>
+              <li>🔐 Seguridad: Autenticación con Spring Security y JWT, garantizando sesiones sin estado y protección
+                de
+                datos.</li>
+              <li>💾 Persistencia: MySQL con Spring Data JPA.</li>
+              <li>🌐 Frontend: Thymeleaf + JavaScript (Fetch API) para vistas dinámicas y experiencia fluida.</li>
+              <li> ⚙ Backend: Java 17, Spring Boot 3, API REST segura y modular.</li>
+            </ul>
+          </div>
 
-        <div class="project-tech">
-          <h4>Tecnologías y arquitectura</h4>
-          <ul>
-            <li>🧩 Arquitectura Hexagonal (Ports & Adapters). Separación clara entre dominio, aplicación e infraestructura.</li>
-            <li>🔐 Seguridad: Autenticación con Spring Security y JWT, garantizando sesiones sin estado y protección de datos.</li>
-            <li>💾 Persistencia: MySQL con Spring Data JPA.</li>
-            <li>🌐 Frontend: Thymeleaf + JavaScript (Fetch API) para vistas dinámicas y experiencia fluida.</li>
-            <li> ⚙ Backend: Java 17, Spring Boot 3, API REST segura y modular.</li>
-          </ul>
-        </div>
-
-        <div class="project-details">
-          <h4>Detalles técnicos</h4>
-          <p>- Dominio desacoplado de frameworks.</p>
-          <p>- Servicios principales: AuthService, DespensaService, ProductoService, RecomendacionNutriService.</p>
-          <p>- Capa de seguridad con JwtTokenProvider, JwtAuthenticationFilter y manejo centralizado de errores.</p>
-          <p>- Integración de datos locales y externos con almacenamiento en caché para optimizar rendimiento.</p>
-         
-        </div>
-
+          <div class="project-details">
+            <h4>Detalles técnicos</h4>
+            <ul>
+              <li> Dominio desacoplado de frameworks.</li>
+              <li> Servicios principales: AuthService, DespensaService, ProductoService, RecomendacionNutriService.</li>
+              <li> Capa de seguridad con JwtTokenProvider, JwtAuthenticationFilter y manejo centralizado de errores.
+              </li>
+              <li> Integración de datos locales y externos con almacenamiento en caché para optimizar rendimiento.</li>
+            </ul>
+          </div>
         <small class="tech-tags">
           Tecnologías: Java, Spring Boot, MySQL, JavaScript, Arquitectura Hexagonal, JWT
         </small>
