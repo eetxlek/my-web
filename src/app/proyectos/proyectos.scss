@@ -59,9 +59,38 @@ article {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  min-width: 1000px;
   width: 100%;
 }
+/* Solo en escritorio ancho grande */
+@media (min-width: 1024px) {
+    article {
+        min-width: 1200px; /* o 350px según lo que quieras */
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    .project-image-container {
+        height: 160px;
+    }
+
+    article {
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 480px) {
+    .posts-grid {
+        grid-template-columns: 1fr; /* Fuerza una columna */
+        gap: 1.2rem;
+    }
+}
+
 
 article::before {
   content: '';

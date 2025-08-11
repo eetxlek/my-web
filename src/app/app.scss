@@ -69,6 +69,28 @@ header {
         }
     }
 }
+/*para movil*/
+@media (max-width: 768px) {
+    header {
+        padding: var(--spacing-md) 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+
+    header nav {
+        flex-wrap: wrap; /* Permite que los enlaces bajen de línea */
+        gap: 0.5rem;
+    }
+
+    header nav a {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+}
 
 /* ===== MAIN CONTENT ===== */
 main {
