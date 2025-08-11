@@ -8,8 +8,8 @@ import { Post } from '../models/post.model';
   standalone: true,
   selector: 'app-post-detail',
   imports: [CommonModule],
-  template: './post-detail.html',
-  styleUrls: ['./post-detail.css']})
+  templateUrl: './post-detail.html',
+  styleUrls: ['./post-detail.scss']})
 
 
 export class PostDetailComponent implements OnInit {
