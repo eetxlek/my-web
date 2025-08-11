@@ -39,9 +39,3 @@ export class PostService {
     return this.posts.find(post => post.id === id);
   }
 }
-// import postsData from '../../assets/posts.json';  // si quiero cargar los posts desde un JSON en vez de lista en memoria
-//export class PostsService {
-//  getPosts() {
-//    return postsData;
-//  }
-//}

@@ -1,0 +1,38 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.post-detail h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  color: #666;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background: #0056b3;
+}

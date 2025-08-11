@@ -1,0 +1,21 @@
+<div class="container" *ngIf="post">
+  <div class="post-detail">
+    <h1>{{ post.title }}</h1>
+    <small class="date">Publicado: {{ post.date }}</small>
+
+    <div class="post-content">
+      <p *ngFor="let paragraph of getContentParagraphs()">
+        {{ paragraph }}
+      </p>
+    </div>
+
+    <button (click)="goBack()" class="back-button">
+      ← Volver al blog
+    </button>
+  </div>
+</div>
+
+<div class="container" *ngIf="!post">
+  <p>Post no encontrado</p>
+  <button (click)="goBack()">← Volver al blog</button>
+</div>

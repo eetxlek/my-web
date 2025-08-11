@@ -5,6 +5,7 @@ import { Proyectos } from './proyectos/proyectos';
 import { BlogComponent } from './blog/blog';
 import { PostComponent } from './post/post';
 import { NotFoundComponent } from './not-found/not-found';
+import { PostDetailComponent } from './post-detail/post-detail';
 
 export const routes: Routes = [
   { 
@@ -29,7 +30,7 @@ export const routes: Routes = [
   },
   { 
     path: 'blog/:id', 
-    component: PostComponent,
+    component: PostDetailComponent,
     title: 'Post' 
   },
   { 
