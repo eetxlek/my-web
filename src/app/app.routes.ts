@@ -3,7 +3,6 @@ import { Bio } from './bio/bio';
 import { Home } from './home/home';
 import { Proyectos } from './proyectos/proyectos';
 import { BlogComponent } from './blog/blog';
-import { PostComponent } from './post/post';
 import { NotFoundComponent } from './not-found/not-found';
 import { PostDetailComponent } from './post-detail/post-detail';
 
