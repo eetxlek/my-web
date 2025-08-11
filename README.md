@@ -1,59 +1,115 @@
-# MiBlogAngular
+# Mi Blog Personal - Estibaliz
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+Un blog personal desarrollado con Angular que presenta información sobre mi perfil profesional y personal.
 
-## Development server
+## 🌐 Demo en vivo
 
-To start a local development server, run:
+[https://eetxlek.github.io/my-web/](https://eetxlek.github.io/my-web/)
 
-```bash
-ng serve
+## 🛠️ Tecnologías utilizadas
+
+- **Framework**: Angular (versión 17+)
+- **Estilos**: SCSS
+- **Deployment**: GitHub Pages
+- **Build**: Angular CLI
+
+## 📁 Estructura del proyecto
+
+```
+mi-blog-angular/
+├── src/
+│   ├── app/
+│   │   ├── bio/           # Componente de biografía
+│   │   ├── home/          # Componente página principal
+│   │   └── proyectos/     # Componente de proyectos, en desarrollo
+│   │   └── blog/          # Componente blog con contenidos técnicos, y diario de bitácora.
+│   ├── styles.scss        # Estilos globales
+│   └── main.ts           # Punto de entrada
+├── public/               # Assets públicos
+├── angular.json          # Configuración Angular
+├── package.json          # Dependencias
+└── README.md            # Este archivo
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Instalación y desarrollo local
 
-## Code scaffolding
+### Prerequisitos
+- Node.js (versión 16 o superior)
+- npm o yarn
+- Angular CLI
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Pasos para ejecutar localmente
 
-```bash
-ng generate component component-name
-```
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/eetxlek/my-web.git
+   cd my-web
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
 
-```bash
-ng generate --help
-```
+3. **Ejecutar servidor de desarrollo**
+   ```bash
+   ng serve
+   ```
 
-## Building
+4. **Abrir en el navegador**
+   Navega a `http://localhost:4200/`
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+## 📦 Build para producción
 
 ```bash
-ng e2e
+ng build --configuration production
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Los archivos compilados se guardarán en el directorio `dist/`.
 
-## Additional Resources
+## 🚀 Deployment a GitHub Pages
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages:
+
+```bash
+# Build para producción con base-href
+ng build --configuration production --base-href="https://eetxlek.github.io/my-web/"
+
+# Deploy a GitHub Pages
+npx angular-cli-ghpages --dir=dist/mi-blog-angular/browser
+```
+
+## 📝 Secciones del sitio
+
+- **Home**: Página principal con presentación
+- **Bio**: Información personal y profesional
+- **[Otras secciones según tu contenido]**
+
+## 🎨 Características
+
+- Diseño responsive
+- Estilos personalizados con SCSS
+- Optimizado para rendimiento
+- Compatible con dispositivos móviles
+
+## 🛠️ Scripts disponibles
+
+- `npm start` - Ejecuta el servidor de desarrollo
+- `npm run build` - Build para producción
+- `npm run test` - Ejecuta las pruebas unitarias
+- `npm run lint` - Ejecuta el linter
+
+## 📄 Licencia
+
+Este proyecto es de uso personal.
+
+## 👤 Autor
+
+**Estibaliz**
+
+- Website: [https://eetxlek.github.io/my-web/](https://eetxlek.github.io/my-web/)
+- GitHub: [@eetxlek](https://github.com/eetxlek)
+
+---
+
+⭐ ¡No olvides darle una estrella al repositorio si te gustó el proyecto! using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
