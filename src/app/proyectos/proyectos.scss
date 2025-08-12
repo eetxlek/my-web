@@ -150,11 +150,12 @@ h4 {
 }
 
 .project-image {
-  border-radius: 12px;
+
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   transition: all 0.3s ease;
+
 }
 
 
@@ -218,4 +219,26 @@ li {
 .download-button:hover {
   background-color: #288b4e;
   color:black
+}
+
+/* Contenedor específico para la imagen Swagger */
+.api-documentation {
+  .project-image-container.swagger-docs {
+    height: auto; /* Altura flexible */
+    min-height: 300px; /* Altura mínima */
+    padding: 1rem;
+    background-color: #f8f9fa; /* Fondo claro para mejor contraste */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    
+    .project-image {
+      width: 100%;
+      height: auto;
+      max-height: 600px; /* Altura máxima */
+      object-fit: contain; /* Muestra toda la imagen sin recortar */
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  }
 }
