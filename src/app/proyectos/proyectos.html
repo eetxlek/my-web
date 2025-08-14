@@ -22,53 +22,63 @@
             📄 Descarga documentación completa
           </a>
         </div>
-      
-          <div class="project-features">
-            <h4>Funcionalidades principales</h4>
-            <ul>
-              <li>📊 Recomendaciones personalizadas: Cálculo automático en base a perfil, objetivos y registros del
-                usuario.</li>
-              <li>🥫 Gestión de despensa: Añadir, editar y controlar existencias con datos nutricionales asociados.</li>
-              <li>🍽️ Registro de consumos: Seguimiento detallado del historial de ingestas diarias.</li>
-              <li>🔍 Búsqueda de productos: Consulta de información desde base de datos interna y API externa con
-                filtrado
-                y validación de datos.</li>
-            </ul>
-          </div>
 
-          <div class="project-tech">
-            <h4>Tecnologías y arquitectura</h4>
-            <ul>
-              <li>🧩 Arquitectura Hexagonal (Ports & Adapters). Separación clara entre dominio, aplicación e
-                infraestructura.</li>
-              <li>🔐 Seguridad: Autenticación con Spring Security y JWT, garantizando sesiones sin estado y protección
-                de
-                datos.</li>
-              <li>💾 Persistencia: MySQL con Spring Data JPA.</li>
-              <li>🌐 Frontend: Thymeleaf + JavaScript (Fetch API) para vistas dinámicas y experiencia fluida.</li>
-              <li> ⚙ Backend: Java 17, Spring Boot 3, API REST segura y modular.</li>
-            </ul>
-          </div>
-         <div class="api-documentation">
+        <div class="project-features">
+          <h4>Funcionalidades principales</h4>
+          <ul>
+            <li data-number="1"> <strong>📊 Recomendaciones personalizadas:</strong> <p>Cálculo automático en base a perfil, objetivos y registros del
+              usuario. </p> <div class="gallery">
+              <img src="regitrso.png" alt="Registro" >
+              <img src="perfil.png" alt="Perfil" >
+            </div>
+            </li>
+             <li data-number="2"> <strong>🔍 Búsqueda de productos: </strong><p>Consulta de información en base de datos interna de productos frescos y en API externa con
+              filtrado y volcado de datos de productos envasados.</p>
+              <div class="gallery">
+              <img src="api2.png" alt="Datos de frescos" ><img src="apifood.png" alt="API Open food facts" ></div>
+            </li>
+            <li data-number="3"> <strong>🥫 Gestión de despensa:</strong> <p>Añadir, editar y controlar existencias con datos asociados.</p>
+               <div class="gallery"><img src="despensa.png" alt="Despensa" ></div>
+            </li>
+            <li data-number="4"><strong> 🍽️ Registro de consumos: </strong><p> Seguimiento detallado del historial de ingestas diarias.</p>
+               <div class="gallery"><img src="consumo.png" alt="Consumo"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-tech">
+          <h4>Tecnologías y arquitectura</h4>
+          <ul>
+            <li>🧩 Arquitectura Hexagonal (Ports & Adapters). Separación clara entre dominio, aplicación e
+              infraestructura.</li>
+            <li>🔐 Seguridad: Autenticación con Spring Security y JWT, garantizando sesiones sin estado y protección
+              de
+              datos.</li>
+            <li>💾 Persistencia: MySQL con Spring Data JPA.</li>
+            <li>🌐 Frontend: Thymeleaf + JavaScript (Fetch API) para vistas dinámicas y experiencia fluida.</li>
+            <li> ⚙ Backend: Java 17, Spring Boot 3, API REST segura y modular.</li>
+          </ul>
+        </div>
+        <div class="api-documentation">
           <h4>Documentación API</h4>
           <p>La API cuenta con documentación interactiva generada con Swagger/OpenAPI:</p>
-   
+
           <div class="project-image-container swagger-docs">
             <img src="docuSwaggerSmartDiet.png" alt="Documentación Swagger de SmartDiet" class="project-image">
           </div>
           <p class="tech-tags">Tecnologías: OpenAPI 3.0, Swagger UI, Springdoc OpenAPI</p>
         </div>
 
-          <div class="project-details">
-            <h4>Detalles técnicos</h4>
-            <ul>
-              <li> Dominio desacoplado de frameworks.</li>
-              <li> Servicios principales: AuthService, DespensaService, ProductoService, RecomendacionNutriService.</li>
-              <li> Capa de seguridad con JwtTokenProvider, JwtAuthenticationFilter y manejo centralizado de errores.</li>
-              <li> Integración de datos locales y externos con almacenamiento en caché para optimizar rendimiento.</li>
-            </ul>
-          </div>
-         
+        <div class="project-details">
+          <h4>Detalles técnicos</h4>
+          <ul>
+            <li> Dominio desacoplado de frameworks.</li>
+            <li> Servicios principales: AuthService, DespensaService, ProductoService, RecomendacionNutriService.</li>
+            <li> Capa de seguridad con JwtTokenProvider, JwtAuthenticationFilter y manejo centralizado de errores.</li>
+            <li> Integración de datos locales y externos con almacenamiento en caché para optimizar rendimiento.</li>
+          </ul>
+        </div>
+
         <small class="tech-tags">
           Tecnologías: Java, Spring Boot, MySQL, JavaScript, Arquitectura Hexagonal, JWT, OpenAPI
         </small>
