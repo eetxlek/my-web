@@ -114,3 +114,4 @@ Depender de abstracciones, no de implementaciones concretas.`,
     return this.posts.find(post => post.id === id);
   }
 }
+
