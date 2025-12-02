@@ -20,9 +20,7 @@ El proyecto simula un entorno de retail donde se necesita identificar productos 
 \u{1F5C4}\uFE0F Reflexiones:
 Este proyecto me permiti\xF3 aplicar conceptos de programaci\xF3n funcional en Java en un contexto pr\xE1ctico, mejorando mi capacidad para manejar flujos de datos, errores y transformaciones de manera eficiente. Adem\xE1s, es un ejemplo de c\xF3mo construir soluciones escalables y robustas para problemas cotidianos en negocios de retail y log\xEDstica.
 
-\u{1F517} Disponible en GitHub: https://github.com/eetxlek/StreamLambda
-
-\xBFHas trabajado con Streams y Lambda para procesar datos en Java? \xBFQu\xE9 t\xE9cnicas usas para manejar errores y garantizar robustez en tus flujos de datos?`,date:"2025-12-02"},{id:2,title:"Inmersi\xF3n en Mainframe: COBOL, DB2 y JCL en sistemas cr\xEDticos",excerpt:"Experiencia formativa en entornos mainframe con COBOL, DB2 y JCL para el desarrollo de sistemas inform\xE1ticos cr\xEDticos.",content:`Recientemente he completado una formaci\xF3n intensiva en entornos mainframe, una tecnolog\xEDa que sigue siendo fundamental en sistemas cr\xEDticos de grandes organizaciones. La experiencia ha sido una inmersi\xF3n completa en el ecosistema mainframe con Orizon y la Universidad de Alicante.
+\u{1F517} Disponible en GitHub: <a href="https://github.com/eetxlek/StreamLambda" target="_blank">Proyecto en GitHub</a> `,date:"2025-12-02"},{id:2,title:"Inmersi\xF3n en Mainframe: COBOL, DB2 y JCL en sistemas cr\xEDticos",excerpt:"Experiencia formativa en entornos mainframe con COBOL, DB2 y JCL para el desarrollo de sistemas inform\xE1ticos cr\xEDticos.",content:`Recientemente he completado una formaci\xF3n intensiva en entornos mainframe, una tecnolog\xEDa que sigue siendo fundamental en sistemas cr\xEDticos de grandes organizaciones. La experiencia ha sido una inmersi\xF3n completa en el ecosistema mainframe con Orizon y la Universidad de Alicante.
 
 \u{1F3DB}\uFE0F Contexto del curso:
 Formaci\xF3n especializada en sistemas mainframe, enfocada en el desarrollo y mantenimiento de aplicaciones empresariales cr\xEDticas que requieren m\xE1xima fiabilidad y rendimiento.
